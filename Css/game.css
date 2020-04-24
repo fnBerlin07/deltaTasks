@@ -1,0 +1,288 @@
+body{
+ background: linear-gradient( to right, #000000, #434343,#000 ); 
+ color: black;
+ font-family: 'Nunito', sans-serif;
+ margin: 0;
+}
+
+.titleDisplay{
+ background: linear-gradient(to right, #0f9b0f, #000000); 
+ border-bottom-style: solid ;
+ color: yellowgreen;
+ text-transform: uppercase;
+ margin: 0;
+ text-align: center;
+ height: 80px;
+ padding-bottom: 0;
+ font-weight: 800;
+ font-size: 20px;
+ line-height: 25px;
+ letter-spacing: 2px;
+}
+
+#navbar{
+ text-align: center;
+ margin: 0;
+ background: linear-gradient(to right, #0f9b0f, #000000); 
+ margin-bottom: 10px;
+}
+
+#yourTime,#bestTime{
+ width: 100px ;
+ text-align: center;
+ display: inline-block;
+ color: white;
+ border-collapse: collapse;
+ padding-top: 10px;
+ padding-bottom: 10px ;
+ margin: 0;
+ font-size: small;
+ font-weight: bold;
+}
+
+.highScoreDisplay{
+ font-size: 20px;
+ color:white;
+ font-weight: 200;
+}
+.square{
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ border-radius: 15%;
+ text-align: center;
+ margin: 0.1%;
+ float: left;
+ background-color: white;
+ transition: all 1s;
+ font-size: 15px;
+ font-weight: 200;
+}
+
+.no-square{
+ display: none !important;
+}
+.container{
+ width:420px;
+ height: 505px;
+ border: 1px solid rgba(0,0,0,0.1);
+ margin: auto;
+ text-align: center;
+}
+#gameCount{
+ text-align: center;
+ font-weight: normal;
+ font-size: 45px;
+ cursor: pointer;
+ color: white;
+}
+.square1{
+ background-color:white;
+ display: inline-block;
+ animation-name: slide1;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: -3.15s;
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+}
+.square2{
+ background-color:white;
+ display: inline-block;
+ animation-name: slide2;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: -2.45s;
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+}
+.square3{
+ background-color:white;
+ display: inline-block;
+ animation-name: slide3;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: -1.70s;
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+}
+.square4{
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+ background-color:white;
+ display: inline-block;
+ animation-name: slide4;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: -0.85s;
+ 
+}
+.square5{
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+ background-color:white;
+ display: inline-block;
+ animation-name: slide5;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+.square6{
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+ background-color:white;
+ display: inline-block;
+ animation-name: slide1;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: -3.15s;
+ animation-direction: reverse;
+}
+.square7{
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+ background-color:white;
+ display: inline-block;
+ animation-name: slide2;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: -2.25s;
+ animation-direction: reverse;
+}
+.square8{
+ width: 100px;
+ height: 100px;
+ background-color:white;
+ display: inline-block;
+ animation-name: slide3;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: -1.41s;
+ animation-direction: reverse;
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+}
+.square9{
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+ background-color:white;
+ display: inline-block;
+ animation-name: slide4;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: -0.66s;
+ animation-direction: reverse;
+}
+.square10{
+ width: 100px;
+ height: 60px;
+ padding-top: 40px;
+ animation-play-state: paused;
+ background-color:white;
+ display: inline-block;
+ animation-name: slide5;
+ animation-duration: 4s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-direction: reverse;
+ animation-delay: 0.1s;
+}
+.animate{
+ animation-play-state: running;
+ transition: all 2s;
+ border-radius: 8%;
+ font-size: 20px;
+ font-weight: 400;
+}
+
+button{
+ outline-color: yellowgreen;
+ border: none;
+ padding: 12px 5px;
+ text-align: center;
+ letter-spacing: 0.5px;
+ display: inline-block;
+ font-size: 16px;
+ margin: 0 ;
+ cursor: pointer;
+ background-color: inherit;
+ color: yellowgreen;
+}
+
+button:hover{
+ background-color: black;
+ transition: 0.6s;
+}
+.on{
+ background-color: black;
+ color: yellowgreen;
+}
+.strip{
+ background-color: black;
+ margin-top: 20px;
+ color: yellowgreen;
+ display: block;
+ text-align: right;
+ padding-right: 4%;
+}
+
+
+.box{
+ width: 420px;
+ height: 105px;
+ border: 2px solid rgba(0,0,0,0.1);
+ overflow: hidden;
+ white-space: nowrap; 
+ text-align: center; 
+ margin : auto ;
+}
+@keyframes slide1{
+ from {transform: translateX(420px);}
+ to {transform: translateX(-110px);}
+}
+@keyframes slide2{
+ from {transform: translateX(330px);}
+ to {transform: translateX(-200px);}
+}
+@keyframes slide3{
+ from {transform: translateX(230px);}
+ to {transform: translateX(-300px);}
+}
+@keyframes slide4{
+ from {transform: translateX(120px);}
+ to {transform: translateX(-410px);}
+}
+@keyframes slide5{
+ from {transform: translateX(10px);}
+ to {transform: translateX(-520px);}
+}
+
+
+
+
