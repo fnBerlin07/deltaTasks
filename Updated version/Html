@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>The Tile Kounter</title>
+ <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+ <link rel="shortcut icon" href="../Icon/icons8-ceramic-tiles-96.png">
+ <link rel="stylesheet" href="../Css/game.css">
+</head>
+<body>
+ 
+ <audio id="countDown" src="../Audio/Cinema 4D seconds countdown timer 3,2,1,0.mp3"></audio>
+ <audio id="tilePush" src="../Audio/button-37.mp3"></audio>
+ <audio id="btnClick" src="../Audio/Click2-Sebastian-759472264.mp3"></audio>
+ <audio src="../Audio/Wrong-answer-sound-effect.mp3" id="incorrect"></audio>
+ <audio loop id="bgm" src="../Audio/Illuminati Confirmed - Sound Effect [HD].mp3" type="audio/mp3" ></audio>
+
+ <div class="titleDisplay">
+  <span>The <br>Tile<br> Kounter</span>
+ </div>  
+  
+
+ <div id="navbar">
+  <button id="newGame">Leader</button>
+  <span id="yourTime">Time:00:00.000</span>
+  <span id="bestTime">Best:00:00.000</span>
+  <button class="btn" id="easy">Easy</button>
+  <button class="btn" id="medium">Medium</button>
+  <button class="btn" id="hard">Hard</button>
+ </div>
+
+
+
+ <section id="gameCenter" class="container">
+  <div class="highScoreDisplay"></div>
+  <div class="highScoreDisplay"></div>
+  <div class="highScoreDisplay"></div>
+  <div class="highScoreDisplay"></div>
+  <div class="highScoreDisplay"></div>
+  <div id="gameCount"></div>
+  <section class="">
+   <div class="square">1</div>
+   <div class="square">2</div>
+   <div class="square">3</div>
+   <div class="square">4</div>
+   <div class="square">5</div>
+  </section>
+  <section class="">
+   <div class="square">6</div>
+   <div class="square">7</div>
+   <div class="square">8</div>
+   <div class="square">9</div>
+   <div class="square">10</div>
+  </section>
+  <section class="">
+   <div class="square">1</div>
+   <div class="square">2</div>
+   <div class="square">3</div>
+   <div class="square">4</div>
+   <div class="square">5</div>
+  </section>
+  <section class="">
+   <div class="square">6</div>
+   <div class="square">7</div>
+   <div class="square">8</div>
+   <div class="square">9</div>
+   <div class="square">10</div>
+  </section>
+ </section>
+<span class="strip">Made with ❤️ by Ajeet | <a href="#"><img src="../Icon/icons8-facebook-circled-48.png" height="20px"></a> | <a href="#"><img src="../Icon/icons8-instagram-30.png" height="20px" ></a> |</span>
+
+ 
+ <script src="../JS/game.js"></script>
+</body>
+</html>
